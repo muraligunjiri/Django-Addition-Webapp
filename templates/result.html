@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content%}
+
+    {% csrf_token %}
+
+<h1> The Result of Addition:</h1>
+<h2>{{number1}} + {{number2}} Result: {{result}} </h2>
+
+{% endblock %}
